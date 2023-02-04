@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Times-New-Roman, Tahoma, sans-serif; /*Alterei para Times-New-Roman*/
     box-sizing: border-box;
 }
 
