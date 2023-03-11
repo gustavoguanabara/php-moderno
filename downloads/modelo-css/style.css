@@ -101,6 +101,30 @@ table tr:nth-child(odd) {
     background-color: rgba(55, 41, 145, 0.3);
 }
 
+table.divisao {
+    border: 1px solid white;
+}
+
+table.divisao td {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+table.divisao  tr:nth-child(1) td:nth-child(2) {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+table.divisao tr:nth-child(2) td:nth-child(2) {
+    border-left: 3px solid black;
+}
+
+table.divisao tr:nth-child(2) td:nth-child(1) {
+    text-decoration: underline;
+}
+
 ul > li::marker {
     color: #372991;
 }
